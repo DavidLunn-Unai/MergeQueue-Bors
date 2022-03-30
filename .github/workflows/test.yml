@@ -1,8 +1,8 @@
 name: Test
 
 on:
-  push:
-    branches: [main]
+  commit:
+    branches: [staging]
   pull_request:
     branches: [main]
 
